@@ -1,0 +1,147 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+#search, #mapSearch {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#search h1, #mapSearch h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#searchInput, #mapSearchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#searchResults, #mapSearchResults {
+    list-style: none;
+}
+
+#searchResults li, #mapSearchResults li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+
+#searchResults li:last-child, #mapSearchResults li:last-child {
+    border-bottom: none;
+}
+
+#searchResults li:hover, #mapSearchResults li:hover {
+    background-color: #f9f9f9;
+}
+
+#searchButton, #mapSearchButton {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#searchButton:hover, #mapSearchButtonHover {
+    background-color: #0056b3;
+}
+
+.player-result {
+    position: relative;
+    cursor: pointer;
+}
+
+.player-details {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    z-index: 100;
+}
+
+.player-result:hover .player-details {
+    display: block;
+}
+
+#playerProfile {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+#playerProfile h3 {
+    color: #007bff;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#playerProfile p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #555;
+}
+
+#playerProfile .stats-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#playerProfile .stats-section h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#playerProfile .stats-section p {
+    font-size: 14px;
+}
+
+/* Style for back button */
+#backButton {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#backButton:hover {
+    background-color: #0056b3;
+}

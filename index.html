@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempus Jump Records</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Search Content -->
+    <div id="search">
+        <h1>Search Maps or Players</h1>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button id="searchButton">Search</button>
+        <ul id="searchResults">
+            <!-- Search results will be populated here -->
+        </ul>
+    </div>
+
+    <!-- Player Profile Section -->
+    <div id="playerProfile" style="display:none;">
+        <button id="backButton">Back to Search</button>
+        <h2>Player Profile</h2>
+        <div id="profileContent">
+            <!-- Player details will be displayed here -->
+        </div>
+
+        <!-- Map Search Section -->
+        <div id="mapSearch">
+            <h1>Search Maps</h1>
+            <input type="text" id="mapSearchInput" placeholder="Search Maps...">
+            <button id="mapSearchButton">Search</button>
+            <ul id="mapSearchResults">
+                <!-- Map search results will be populated here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="search.js"></script>
+</body>
+</html>
